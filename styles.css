@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+#app-array{
+  width: 30px;
+  height: 30px;
+  opacity: 0.75;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+#signin{
+  position: relative;
+  top: 6px;
+  background: linear-gradient(#4387fc, #4683eb);
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  height: 30px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+#images{
+  padding-left: 0px;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 10px;
+}
+
+li a{
+  display: block;
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  text-decoration: underline;
+}
+
+.top-left-nav{
+  float: left;
+}
+
+.top-right-nav{
+  float: right;
+}
+
+#logo{
+  width: 272px;
+  height: 92px;
+  margin: auto;
+  display: block;
+}
+
+.search{
+  width: 900px;
+  padding-top: 109px;
+  margin: 0 auto;
+  display: block;
+}
+.search-box{
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 575px;
+  padding: 12px 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #dcdcdc;
+}
+
+#box{
+  border: none;
+  font-family: arial;
+  font-size: 14px;
+  width: 525px;
+  display: inline-block;
+  outline: none;
+}
+
+#voice-search{
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  outline: none;
+}
+
+.buttons {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  padding-top: 18px;
+}
+
+.buttons button{
+  display: inline-block;
+  margin: 18px 3px;
+  padding: 10px 16px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.buttons button:hover{
+    color: black;
+    background: #f1f1f1;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.bottom a{
+  color: #666;
+}
+
+.bottom-left-nav{
+  float: left;
+}
+
+.bottom-right-nav{
+  float: right;
+}
